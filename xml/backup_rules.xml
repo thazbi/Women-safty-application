@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include all shared preferences in the backup -->
+    <include domain="sharedpref" path="." />
+
+    <!-- Exclude specific shared preferences (e.g., device.xml) from the backup -->
+    <exclude domain="sharedpref" path="device.xml" />
+
+    <!-- Include all databases in the backup -->
+    <include domain="database" path="." />
+
+    <!-- Exclude a specific database from the backup -->
+    <exclude domain="database" path="logs.db" />
+
+    <!-- Include files from app-specific storage -->
+    <include domain="file" path="." />
+
+    <!-- Exclude cache files -->
+    <exclude domain="cache" path="." />
+</full-backup-content>

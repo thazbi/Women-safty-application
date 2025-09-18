@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#cca300</color>  <!-- Changed to #FF99FF33 for correct opacity -->
+    <color name="purple_700">#FF03DAC5</color>
+    <color name="teal_200">#FFCC33FF</color>     <!-- Changed to #FFCC33FF for correct opacity -->
+    <color name="teal_700">#FF3700B3</color>
+    <color name="black">#FF003300</color>        <!-- Added FF for full opacity -->
+    <color name="white">#FFFFFFFF</color>         <!-- Corrected to fully opaque white -->
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+
+
+<!--<resources>-->
+<!--    <color name="purple_200">#FFBB86FC</color>-->
+<!--    <color name="purple_500">#99ff33</color>-->
+<!--    <color name="purple_700">#FF03DAC5</color>-->
+<!--    <color name="teal_200">#cc33ff</color>-->
+<!--    <color name="teal_700">#FF3700B3</color>-->
+<!--    <color name="black">#003300</color>-->
+<!--    <color name="white"> #FF000000</color>-->
+<!--</resources>-->
+
+
+
+<!--<resources>-->
+<!--<color name="purple_200">#FFBB86FC</color>-->
+<!--<color name="purple_500">#cc0099</color>-->
+<!--<color name="purple_700">#cc33ff</color>-->
+<!--<color name="teal_200">#FF03DAC5</color>-->
+<!--<color name="teal_700">#FF3700B3</color>-->
+<!--<color name="black">#FF000000</color>-->
+<!--<color name="white">#FFFFFFFF</color>-->
+<!--</resources>-->

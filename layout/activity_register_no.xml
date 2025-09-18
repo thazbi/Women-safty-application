@@ -1,0 +1,76 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_reg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Contact Registration"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Call Number"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/editTextCallNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:hint="Call Number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter SMS Number"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextSmsNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:hint="SMS Number 1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Police Station Number"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextSmsNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:hint="Police Station Number" />
+
+    <Button
+        android:id="@+id/buttonFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/purple_500"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
